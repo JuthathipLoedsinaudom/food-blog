@@ -1,5 +1,85 @@
 main {
     height: 500px;
-    background-image: url('/img/ramen.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, .3)), url('/img/ramen.jpg');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.25rem;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Roboto Slab", serif;
+}
+
+img.profile {
+    width: 6.25rem;
+    border-radius: 100%;
+    border: 0.0625em solid white;
+    margin: -50px auto;
+
+}
+
+div.profile {
+    display: flex;
+    align-items: center;
+}
+
+div.author-info {
+    margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+div.content {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51, 51, 51);
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    margin: 2em;
+}
+
+.num-tag > h2 {
+    color: rgba(0, 0, 0, .25);
+}
+
+.col {
+    max-width: 40em;
+}
+
+a {
+    color: #42b4d6;
+    text-decoration: none;
+    font-size: 28px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.food {
+    width: 100%;
 }
