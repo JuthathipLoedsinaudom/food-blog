@@ -1,6 +1,6 @@
 main {
-    height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, .3)), url('/img/ramen.jpg');
+    height: 31.25em;
+    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, .3)), url('./img/ramen.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -39,6 +39,7 @@ div.profile {
 
 div.author-info {
     margin-top: 50px;
+    margin-bottom: 60px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -54,21 +55,23 @@ div.content {
     display: flex;
     gap: 2.5em;
     justify-content: center;
-    margin: 2em;
+    margin-bottom: 120px;
 }
 
-.num-tag > h2 {
+.num-tag>h2 {
     color: rgba(0, 0, 0, .25);
 }
 
 .col {
-    max-width: 40em;
+    max-width: 66.67%;
+    margin: 0;
 }
 
-a {
+a{
     color: #42b4d6;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
 
 }
 
@@ -78,8 +81,21 @@ a:hover {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 0 20px 0;
 }
+
 
 .food {
     width: 100%;
+}
+
+@media (max-width:360px) {
+    .num-tag {
+        display: none;
+    }
+
+    .col {
+        margin: 1em;
+        max-width: none;
+    }
 }
