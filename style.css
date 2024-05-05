@@ -1,6 +1,6 @@
 main {
     height: 31.25em;
-    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, .3)), url('https://raw.githubusercontent.com/JuthathipLoedsinaudom/food-blog/main/img/ramen.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, .3)), url('https://raw.githubusercontent.com/jjennyzs/food-blog/main/img/ramen.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -17,19 +17,19 @@ h1 {
     font-size: 2.25rem;
     color: white;
     text-align: center;
+    font-family: "Roboto Slab", serif;
 }
 
-h1,
 h2 {
     font-family: "Roboto Slab", serif;
+    margin-top: 0;
 }
 
 img.profile {
     width: 6.25rem;
     border-radius: 100%;
     border: 0.0625em solid white;
-    margin: -50px auto;
-
+    margin: -3.125em auto;
 }
 
 div.profile {
@@ -38,28 +38,29 @@ div.profile {
 }
 
 div.author-info {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    margin-top: 3.125em;
+    margin-bottom: calc(10em/3);
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: rgb(51, 51, 51);
     text-align: center;
 }
 
 div.content {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: rgb(51, 51, 51);
     display: flex;
-    gap: 2.5em;
+    gap: calc(20em/9);
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: calc(120em/18);
 }
 
 .num-tag>h2 {
     color: rgba(0, 0, 0, .25);
+    margin-top: 0;
 }
 
 .col {
@@ -67,12 +68,11 @@ div.content {
     margin: 0;
 }
 
-a{
+a {
     color: #42b4d6;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Roboto Slab", serif;
-
 }
 
 a:hover {
@@ -81,7 +81,7 @@ a:hover {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0 0 20px 0;
+    margin: 0 0 1.25rem 0;
 }
 
 
